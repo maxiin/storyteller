@@ -65,7 +65,7 @@ Hooks.on("init", () => {
 });
 
 Hooks.on("ready", () => {
-    EntitySheetConfig.updateDefaultSheets(game.settings.get("core", "sheetClasses"));
+    DocumentSheetConfig.updateDefaultSheets(game.settings.get("core", "sheetClasses"));
 
     restoreOldStories()
     console.log("Storyteller | Ready")

@@ -15,7 +15,7 @@ export class StorySheet extends DocumentSheet {
             resizable: false,
             closeOnSubmit: false,
             submitOnClose: true,
-            viewPermission: CONST.ENTITY_PERMISSIONS.NONE,
+            viewPermission: CONST.DOCUMENT_PERMISSION_LEVELS.NONE,
         });
     }
 
